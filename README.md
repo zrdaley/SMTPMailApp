@@ -15,7 +15,7 @@ Created in response to https://github.com/sendwithus/challenges/blob/master/eng/
 ## Start the smtp server
 
 1. In the root directory of the project, edit the file smtp-server.js
-2. In the section DATABASE, change the third parameter to your mysql password  `var middleMan = new dbconnection.dbConnection(mysql, 'localhost', 'root','<insert your password here>', 'smtp_emails');`
+2. In the section DATABASE, change the fourth parameter in the function call to your mysql password  `var middleMan = new dbconnection.dbConnection(mysql, 'localhost', 'root','<insert your password here>', 'smtp_emails');`
 2. Open a new terminal/command line session, change your current directory to your local project root directory 
 3. Run `node smtp-server.js`
 
@@ -33,7 +33,7 @@ Created in response to https://github.com/sendwithus/challenges/blob/master/eng/
 ## Start App
  
  1. In the root directory of the project, edit the file server.js
- 2. In the section DATABASE, change the third parameter to your mysql password  `var middleMan = new dbconnection.dbConnection(mysql, 'localhost', 'root','<insert your password here>', 'smtp_emails');`
+ 2. In the section DATABASE, change the fourth parameter in the function call to your mysql password  `var middleMan = new dbconnection.dbConnection(mysql, 'localhost', 'root','<insert your password here>', 'smtp_emails');`
  3. Open a new terminal/command line session, change your current directory to your local project root directory 
  4. Run `node server.js` 
  5. In a web browser navigate to `http://localhost:8080/ `

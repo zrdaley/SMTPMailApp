@@ -24,10 +24,10 @@ Created in response to https://github.com/sendwithus/challenges/blob/master/eng/
 1. Open a new terminal/command line session
 2. run `telnet localhost 1025`
 3. Greet the mail server `HELO localhost`
-4. Specify sender 'MAIL FROM: <example@test.com>`
+4. Specify sender `MAIL FROM: <example@test.com>`
 5. Specify receipiant `RCPT TO: <test@test.com>` NOTE: the server only accepts messages sent to this email address
-6. Create message 'DATA'
-7. Type message, end my typing '.' 
+6. Create message `DATA`
+7. Type message, end my typing `.`
 8. Repeat as many times as you wish, all messages will be stored
 
 ## Start App

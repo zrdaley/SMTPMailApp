@@ -37,4 +37,4 @@ Created in response to https://github.com/sendwithus/challenges/blob/master/eng/
  3. Open a new terminal/command line session, change your current directory to your local project root directory 
  4. Run `node server.js` 
  5. In a web browser navigate to `http://localhost:8080/ `
- 6. Browse though all of the emails you just sent to yourself. So popular. 
+ 6. Browse through all of the emails you just sent to yourself. So popular. 

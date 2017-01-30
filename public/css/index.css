@@ -1,0 +1,149 @@
+#navbar {
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fc6449;
+    box-shadow: 0px 2px 5px #888888;
+}
+
+#siteName {
+  color: #FFFFFF;
+  font-size: 35px;
+  font-family:  Futura;
+  font-weight: lighter;
+  padding-left: 20px;
+  display: inline;
+  float: left;
+}
+
+#siteTitle{
+  color: #000000;
+  font-size: 35px;
+  font-family: impact;
+  padding-left: 20px;
+  display: inline;
+  padding-left: 15px;
+}
+
+#menu {
+  white-space: nowrap;
+  overflow: hidden;
+  border: 1px solid #DDD;
+  padding: 4px;
+  margin-right: 5px;
+  background-color: #F9F9F9;
+  width: 120px;
+  float: left;
+}
+
+/*table CSS*/
+#projectTable, #projectTable_{
+  text-align: left;
+  margin: auto;
+  margin-top: 30px;
+
+}
+.datagrid table { 
+  border-collapse: collapse; 
+  text-align: left; 
+  width: 100%; 
+} 
+
+.datagrid {
+  font: normal 12px/150% futura; 
+  font-weight: lighter;
+  background: #fff; 
+  overflow: hidden; 
+  border: 1px solid #7C786A; 
+  -webkit-border-radius: 4px; 
+  -moz-border-radius: 4px; 
+  border-radius: 4px; 
+}
+
+.datagrid td, .datagrid table th { 
+  padding: 0px 0px; 
+}
+
+.datagrid thead th {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #C9C9C9), color-stop(1, #7C786A) );
+  background:-moz-linear-gradient( center top, #C9C9C9 5%, #7C786A 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#C9C9C9', endColorstr='#7C786A');
+  background-color:#C9C9C9; 
+  color:#FFFFFF; 
+  font-size: 12px; 
+  font-weight: lighter; 
+  border-left: 0px solid #A3A3A3; 
+  padding-left: 5px;
+  padding: 8px;
+} 
+
+.datagrid  thead th:first-child { 
+  border: none; 
+}
+
+.datagrid tbody td { 
+  color: #7C786A; 
+  border-left: 0px solid #DBDBDB;
+  font-size: 12px;
+  font-weight: normal; 
+  padding-left: 5px;
+  padding: 5px;
+}
+
+.datagrid tbody .alt td { 
+  background: #EBEBEB; 
+  color: #7D7D7D; 
+}
+
+.datagrid tbody td:first-child { 
+  border-left: none; 
+}
+
+.datagrid tbody tr:last-child td { 
+  border-bottom: none; 
+}
+
+
+div.dhtmlx_window_active, div.dhx_modal_cover_dv { 
+  position: fixed !important; 
+}
+/*end CSS*/
+
+button {
+  float: right;
+}
+
+body{
+  margin: 0px;
+  background-color: #dddddd;
+}
+
+/*button*/
+
+.myButton {
+  background-color:#aee096;
+  -moz-border-radius:6px;
+  -webkit-border-radius:6px;
+  border-radius:6px;
+  border-style: none;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Impact;
+  font-size:14px;
+  font-style:italic;
+  padding:4px 8px;
+  text-decoration:none;
+  text-shadow:-1px 1px 5px #92b879;
+}
+.myButton:hover {
+  background-color:#4b91a3;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
